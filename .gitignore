@@ -1,0 +1,39 @@
+# IDE
+/.idea/
+/shelf/
+/.idea/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# OS
+.DS_Store
+
+# Java
+/target/
+*.class
+
+# Node
+/node_modules/
+/frontend/node_modules/
+/frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Keys & secrets
+.env
+public_key.pem
+private_key.pem
+
+# Logs
+*.log
+java.log
+python.log
+frontend.log
+
+# Misc
+/UselessCode/
+/OpenJDK-23.jdk

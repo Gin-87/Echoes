@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@langchain/core": "^0.3.25",
+    "@langchain/langgraph": "^0.2.34",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@mui/icons-material": "^6.3.0",
+    "jsencrypt": "^3.3.2",
+    "react-scripts": "^5.0.1",
+    "uuid": "^11.0.3",
+    "web-vitals": "^4.2.4"
+  }
+}

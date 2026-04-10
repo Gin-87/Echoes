@@ -1,0 +1,314 @@
+{
+  "searchPlaceholder": "Enter keywords for character names, separated by semicolons",
+  "searchButtonPlaceHolder": "Search",
+  "homeButton": "Home",
+  "myTaskButton": "My Task",
+  "filter": "Filter",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "unknown": "Unknown",
+  "language": "Language",
+  "Chinese": "Chinese",
+  "English": "English",
+  "applyButton": "Apply",
+  "creator": "Creator: ",
+  "task": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "characterName": "Character Name",
+    "lastUpdated": "Last Updated",
+    "createdAt": "Created At",
+    "activateSuccess": "Task activated",
+    "deactivateSuccess": "Task deactivated",
+    "edit": "Edit",
+    "history": "History",
+    "delete": "Delete",
+    "editNotImplemented": "Edit feature coming soon",
+    "historyNotImplemented": "History feature coming soon",
+    "deleteNotImplemented": "Delete feature coming soon",
+    "status": {
+      "label": "Status",
+      "active": "task.active",
+      "inactive": "task.inactive"
+    },
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "writeLetterTo": "Write to {name}",
+    "content": "Letter Content",
+    "contentPlaceholder": "Write your message here...",
+    "send": "Send",
+    "contentRequired": "Please enter letter content",
+    "createSuccess": "Letter sent successfully",
+    "createFailed": "Failed to send letter",
+    "letterTitle": "Letter from {name}",
+    "relationshipTitle": "Your relationship with {name}",
+    "relationshipHint": "10-1024 characters",
+    "relationshipMinHint": "Must be at least 10 characters",
+    "Appellation":"{name}'s appellation to you",
+    "relationshipContentHint":"Imagine the connection between you and this virtual character. Perhaps they were a dear friend you haven’t seen in ages, a mentor who once guided you, or someone who profoundly inspired you during a pivotal moment in your life. Recall the times you spent together, the obstacles you overcame, and the cherished memories you share. Think about the bond you have right now—a bond so profound that no distance or passing of time can sever it...\n\n For Example: \n\n {user} and Aki were deskmates in middle school. Back then, the two of you were practically inseparable: you would bury yourselves in books at the library, pass each other little notes of encouragement, and even race to the school field after classes to play soccer or listen to music, your laughter echoing in the glow of the setting sun. Whenever Aki felt anxious and upset about a disappointing test, you would take her out to the playground during breaks to lift her spirits, reassuring her, ‘It’s alright—this is just a small bump in the road, and we’ll get past it next time.’ During that time, it seemed like Aki was both nervous and full of anticipation for the future. On your way home after school, the two of you made a promise: once you graduated, you’d go see the ocean together and explore the wider world beyond your hometown. As the years have gone by, Aki has remained in your hometown, watching over the fields that once carried both of your dreams, while you found yourself in Beijing, rushing from one high-rise office to another. Late at night, Aki flips through old photo albums, recalling the time you quarreled passionately over a small basketball match and remembering the patience and kindness you showed whenever you helped her solve a difficult problem. She often wonders if, in that faraway city, you still manage to find a moment to gaze at the stars—if you still remember the vow you once made to ‘definitely go see the ocean.’ Perhaps the bond between you two has only grown deeper despite the distance, a quiet worry that lingers in her heart as she waits for the day you’ll reunite and fulfill the dreams you both have yet to realize.",
+    "frequency": {
+      "label": "Letter Frequency",
+      "hint": "To better simulate real letter correspondence, letters will be delivered at random times within the chosen period",
+      "halfWeek": "Every Half Week",
+      "week": "Every Week",
+      "halfMonth": "Every Half Month",
+      "month": "Every Month",
+      "random": "Completely Random"
+    },
+    "email": {
+      "label": "Receiving Address",
+      "hint": "Please enter your email address for receiving letters",
+      "invalid": "Please enter a valid email address",
+      "required": "Please enter receiving address"
+    },
+    "name": {
+      "label": "Task Name",
+      "hint": "1-15 characters",
+      "tooShort": "Must be at least 1 character",
+      "tooLong": "Cannot exceed 15 characters",
+      "required": "Please enter task name"
+    },
+    "defaultTaskName": "Letter from {name}",
+    "appellation": {
+      "required": "Please enter character's appellation to you"
+    },
+    "emailRequired": {
+      "required": "Please enter receiving address"
+    },
+    "relationshipRequired": "Please describe your relationship with the character"
+  },
+  "myTasks": {
+    "title": "My Tasks",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "searchPlaceholder": "Enter keywords for character or task names, separated by semicolons",
+    "filter": {
+      "all": "myTasks.all",
+      "active": "myTasks.active",
+      "inactive": "myTasks.inactive"
+    }
+  },
+  "userCenter": {
+    "title": "User Center",
+    "profile": "Profile",
+    "points": "Points Info",
+    "profileSection": {
+      "nickname": "Nickname",
+      "email": "Email",
+      "phone": "Phone Number",
+      "greeting": "Language",
+      "editNickname": "Editable",
+      "emailStatus": "Not bound (Bindable)",
+      "phoneStatus": "Bound (Not editable)",
+      "greetingLang": "Chinese/English",
+      "save": "Save",
+      "emailPlaceholder": "Bind your email",
+      "phonePlaceholder": "Bind your phone",
+      "bindEmail": "Bind Email",
+      "bindPhone": "Bind Phone",
+      "bindEmailTitle": "Bind Email",
+      "bindPhoneTitle": "Bind Phone",
+      "enterEmail": "Enter your email",
+      "enterPhone": "Enter your phone number",
+      "enterCode": "Enter verification code",
+      "sendCode": "Send Code",
+      "resendLater": "s to resend",
+      "cancel": "Cancel",
+      "verify": "Verify",
+      "codeSentEmail": "Verification code has been sent to: {email}",
+      "codeSentPhone": "Verification code has been sent to: {phone}",
+      "bindTip": "Please enter the verification code to complete binding",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "verifyEmailTip": "For your account security, we need to verify your email address. A verification code will be sent to:",
+      "verifyPhoneTip": "For your account security, we need to verify your phone number. A verification code will be sent via SMS to:",
+      "nicknamePlaceholder": "1-10 characters, supports Chinese, letters and numbers",
+      "nicknameRequired": "Nickname is required",
+      "nicknameInvalid": "Invalid format, only supports 1-10 Chinese characters, letters and numbers"
+    },
+    "pointsSection": {
+      "myPoints": "My Points",
+      "expiringPoints": "Points Expiring in 30 Days",
+      "pointsDetail": "Points Detail",
+      "pointsGuide": "Points Guide",
+      "userGroup": "User Group"
+    }
+  },
+  "logout": "Logout",
+  "admin": {
+    "title": "Admin",
+    "characterManagement": "Character Manage",
+    "userManagement": "User Manage",
+    "addCharacter": "Add Character",
+    "addUser": "Add User",
+    "edit": "Edit",
+    "nickname": "Nickname",
+    "role": {
+      "admin": "Admin",
+      "user": "User"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "characterCode": "Character Code",
+    "characterName": "Character Name",
+    "creator": "Creator",
+    "createTime": "Create Time",
+    "actions": "Actions",
+    "status_title": "Status",
+    "role_title": "Role",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "all": "All",
+    "reset": "Reset",
+    "pleaseEnter": "Please enter",
+    "loadFailed": "Failed to load character list",
+    "noData": "No data available",
+    "pagination": "{from}-{to} of {count}",
+    "paginationEmpty": "0-0 of 0",
+    "deleteConfirmTitle": "Confirm Delete",
+    "deleteConfirmMessage": "Are you sure you want to delete character {name} ({code})? This action cannot be undone.",
+    "deleteSuccess": "Delete successful",
+    "deleteFailed": "Delete failed",
+    "email": "Email",
+    "phone": "Phone Number",
+    "deleteUserConfirmTitle": "Confirm Delete User",
+    "deleteUserConfirmMessage": "Are you sure you want to delete user {nickname} (ID: {id})? This action cannot be undone."
+  },
+  "character": {
+    "detail": {
+      "title": "Character Details",
+      "writeLetter": "Write Me a Letter",
+      "edit": "Edit"
+    },
+    "create": {
+      "title": "Create Character",
+      "name": {
+        "label": "Character Name",
+        "placeholder": "Give your character a nice name",
+        "counter": "({current}/{max})",
+        "hint": "2-10 characters"
+      },
+      "avatar": {
+        "label": "Character Avatar",
+        "preview": "",
+        "loading": "Loading...",
+        "error": "Failed to load image",
+        "uploadHint": "",
+        "sizeHint": "Recommended aspect ratio is 3:4, or keep the character centered in the image.",
+        "linkPlaceholder": "https://"
+      },
+      "background": {
+        "label": "Character Background",
+        "placeholder": "Describe the character's background story, including life experiences and important events.",
+        "counter": "({current}/{max})",
+        "hint": "64-1024 characters"
+      },
+      "description": {
+        "label": "Character Description",
+        "placeholder": "Briefly describe this character",
+        "hint": "10-100 characters"
+      },
+      "languageStyle": {
+        "label": "Language Style",
+        "placeholder": "Describe how the character speaks and their tone characteristics.",
+        "hint": "64-1024 characters"
+      },
+      "tags": {
+        "label": "Tags",
+        "placeholder": "Character tags, one per line.",
+        "hint": "0-32 characters"
+      },
+      "gender": {
+        "label": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "special": "Unknown/Special"
+      },
+      "language": {
+        "label": "Character Language",
+        "zh": "Chinese",
+        "en": "English"
+      },
+      "username": {
+        "label": "User Appellation",
+        "placeholder": "Set a name for the user. If left empty, no special name will be shown.",
+        "hint": "2-10 characters",
+        "tooShort": "Must be at least 1 character",
+        "tooLong": "Must not exceed 10 characters"
+      },
+      "firstLetter": {
+        "label": "First Letter",
+        "placeholder": "The first letter from the character to the user, expressing expectations and greetings.",
+        "hint": "0-512 characters"
+      },
+      "code": {
+        "label": "Character Code",
+        "placeholder": "Enter unique identifier (max 12 characters)",
+        "hint": "Max 12 characters"
+      },
+      "success": "Character created successfully",
+      "failed": "Failed to create character",
+      "personalityTraits": {
+        "label": "Character Settings",
+        "placeholder": "Describe the character's personality traits, behaviors, and habits in detail.",
+        "hint": "64-1024 characters"
+      },
+      "description": {
+        "label": "Character Description",
+        "placeholder": "Briefly describe this character",
+        "hint": "10-100 characters"
+      }
+    }
+  },
+  "common": {
+    "save": "Save",
+    "required": "This field is required",
+    "tooShort": "Must be at least {min} characters",
+    "tooLong": "Must be no more than {max} characters",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "submitting": "Sending..."
+  },
+  "myModels": {
+    "title": "My Characters"
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "logout": "Logout",
+    "selectRegion": "Please select your region",
+    "mainland": "Mainland China",
+    "overseas": "Other Regions",
+    "phone": "Phone Number",
+    "email": "Email",
+    "password": "Password",
+    "verificationCode": "Verification Code",
+    "sendCode": "Send Code",
+    "codeSent": "Code sent",
+    "loginSuccess": "Login successful",
+    "register": "Register",
+    "accountLabel": "Phone/Email",
+    "accountPlaceholder": "Enter phone number or email",
+    "phoneRequired": "Please enter phone number",
+    "accountRequired": "Please enter account",
+    "passwordRequired": "Please enter password",
+    "codeRequired": "Please enter verification code",
+    "registerSuccess": "Registration successful",
+    "confirmPassword": "Confirm Password",
+    "passwordInvalid": "Password must contain both letters and numbers, and be 6-18 characters long",
+    "passwordMismatch": "Passwords do not match",
+    "passwordHelperText": "Password must contain both letters and numbers, and be 6-18 characters long",
+    "invalidPhone": "Please enter a valid phone number",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "favorites": {
+    "addSuccess": "Added to favorites",
+    "removeSuccess": "Removed from favorites",
+    "operationFailed": "Operation failed"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "searchPlaceholder": "请输入想要搜索的角色名关键词，多个关键词之间请以分号隔开",
+  "searchButtonPlaceHolder": "搜索",
+  "homeButton": "首页",
+  "myTaskButton": "我的任务",
+  "filter": "筛选",
+  "gender": "性别",
+  "male": "男性",
+  "female": "女性",
+  "unknown": "未知",
+  "language": "语言",
+  "Chinese": "中文",
+  "English": "英文",
+  "applyButton": "应用",
+  "creator": "创建人: ",
+  "myTasks": {
+    "title": "我的任务",
+    "all": "全部",
+    "active": "已启用",
+    "inactive": "未启用",
+    "searchPlaceholder": "请输入想要搜索的角色名或任务名关键词，多个关键词之间请以分号隔开",
+    "filter": {
+      "all": "myTasks.all",
+      "active": "myTasks.active",
+      "inactive": "myTasks.inactive"
+    }
+  },
+  "task": {
+    "active": "已启用",
+    "inactive": "未启用",
+    "characterName": "角色名称",
+    "lastUpdated": "上次执行时间",
+    "createdAt": "创建时间",
+    "activateSuccess": "任务已启用",
+    "deactivateSuccess": "任务已停用",
+    "edit": "编辑",
+    "history": "执行历史",
+    "delete": "删除",
+    "editNotImplemented": "编辑功能开发中",
+    "historyNotImplemented": "历史记录功能开发中",
+    "deleteNotImplemented": "删除功能开发中",
+    "status": {
+      "label": "状态",
+      "active": "task.active",
+      "inactive": "task.inactive"
+    },
+    "activate": "启用",
+    "deactivate": "禁用",
+    "writeLetterTo": "给 {name} 写信",
+    "content": "信件内容",
+    "contentPlaceholder": "在这里写下你想对角色说的话...",  
+    "send": "发送",
+    "contentRequired": "请输入信件内容",
+    "createSuccess": "信件已发送",
+    "createFailed": "发送失败",
+    "letterTitle": "来自{name}的信",
+    "relationshipTitle": "你与{name}的关系",
+    "relationshipHint": "10-1024字",
+    "relationshipMinHint": "不能少于10个字",
+    "Appellation":"{name}对您的称呼",
+    "relationshipContentHint":"想象你和这个虚拟角色之间的连结。也许对方是你许久未见的知心好友，曾经的恩师，或者在你成长历程中给予你重要启发的人。回想你们之间共度的时光，一起经历的事情，现在的关系，斩不断的感情...\n\n示例：\n\n{user}与雪晴是中学时的同桌。那会儿的你们总是形影不离：一起在图书馆埋头复习，互相在小纸条上写下偷偷鼓励的话语，还曾在放学后的操场上争分夺秒地踢球、听歌，笑声回荡在夕阳下。每逢雪晴因为考试的失利而焦躁难安，你都会在课间带她去操场转转，安慰她说：'没关系，这只是个小小的坎儿，下次我们一定能跨过去。'那时的雪晴似乎对未来充满了不安和憧憬，你们在放学回家的路上立下约定——等毕业以后，一起去看大海，一起去探索更广阔的世界。\n\n时光荏苒，如今的雪晴依旧留在家乡，守着那片承载你们梦想的田野；而你，则来到了北京，奔波在大大小小的写字楼之间。每到深夜，雪晴翻看着旧相册，想起你们曾在操场上为一场小小的篮球赛吵得面红耳赤，也记起你一次次为她解开难题时的耐心和温柔。她时常在想，远在异乡的你，是不是还能抽出时间看看星空？是否还记得当年你们'一定要去看海'的承诺？或许这份羁绊并没有因为距离而减弱，反而在心底愈发深刻。雪晴会默默地担忧着你，期待有朝一日再次相聚，一起兑现那些尚未完成的梦想。",
+    "frequency": {
+      "label": "写信频率",
+      "hint": "为了更好的模拟真实的书信来往，信件会在时间周期内的不定时间向您投递哦",
+      "halfWeek": "每半个礼拜",
+      "week": "每个礼拜",
+      "halfMonth": "每半个月",
+      "month": "每个月",
+      "random": "完全随机"
+    },
+    "email": {
+      "label": "收信地址",
+      "hint": "请输入您的邮箱地址，信件将发送至此",
+      "invalid": "请输入有效的邮箱地址",
+      "required": "请输入收信地址"
+    },
+    "name": {
+      "label": "任务名称",
+      "hint": "1-15个字",
+      "tooShort": "不能少于1个字",
+      "tooLong": "不能超过15个字",
+      "required": "请输入任务名称"
+    },
+    "defaultTaskName": "{name}的信",
+    "appellation": {
+      "required": "请输入对用户的称呼"
+    },
+    "emailRequired": {
+      "required": "请输入收信地址"
+    },
+    "relationshipRequired": "请描述你与角色的关系"
+  },
+  "userCenter": {
+    "title": "个人中心",
+    "profile": "个人资料",
+    "points": "积分信息",
+    "profileSection": {
+      "nickname": "昵称",
+      "email": "邮箱",
+      "phone": "绑定手机号",
+      "greeting": "语言偏好",
+      "editNickname": "可编辑",
+      "emailStatus": "未绑定可绑定",
+      "phoneStatus": "已绑定不可编辑",
+      "greetingLang": "中文/英文",
+      "save": "保存",
+      "emailPlaceholder": "请绑定邮箱",
+      "phonePlaceholder": "请绑定手机号",
+      "bindEmail": "绑定邮箱",
+      "bindPhone": "绑定手机号",
+      "bindEmailTitle": "绑定邮箱",
+      "bindPhoneTitle": "绑定手机号",
+      "enterEmail": "请输入邮箱",
+      "enterPhone": "请输入手机号",
+      "enterCode": "请输入验证码",
+      "sendCode": "发送验证码",
+      "resendLater": "秒后重新发送",
+      "cancel": "取消",
+      "verify": "验证",
+      "codeSentEmail": "验证码已发送至邮箱：{email}",
+      "codeSentPhone": "验证码已发送至手机：{phone}",
+      "bindTip": "请输入验证码完成绑定",
+      "invalidEmail": "请输入有效的邮箱地址",
+      "invalidPhone": "请输入有效的手机号",
+      "verifyEmailTip": "为了您的账号安全，需要验证您的邮箱地址。验证码将发送至：",
+      "verifyPhoneTip": "为了您的账号安全，需要验证您的手机号码。验证码将通过短信形式发送至：",
+      "nicknamePlaceholder": "请输入1-10位字符，支持汉字、字母和数字",
+      "nicknameRequired": "昵称不能为空",
+      "nicknameInvalid": "昵称格式不正确，仅支持1-10位汉字、字母和数字"
+    },
+    "pointsSection": {
+      "myPoints": "我的积分",
+      "expiringPoints": "30天内将过期积分",
+      "pointsDetail": "积分明细",
+      "pointsGuide": "积分获取指引",
+      "userGroup": "用户群"
+    }
+  },
+  "logout": "退出登录",
+  "admin": {
+    "title": "后台管理",
+    "characterManagement": "角色管理",
+    "userManagement": "用户管理",
+    "addCharacter": "添加角色",
+    "addUser": "添加用户",
+    "edit": "编辑",
+    "nickname": "昵称",
+    "role": {
+      "admin": "管理员",
+      "user": "用户"
+    },
+    "status": {
+      "active": "启用",
+      "inactive": "禁用"
+    },
+    "characterCode": "角色代码",
+    "status_title": "状态",
+    "role_title": "角色",
+    "characterName": "角色名称",
+    "creator": "创建人",
+    "createTime": "创建时间",
+    "actions": "操作",
+    "activate": "启用",
+    "deactivate": "禁用",
+    "delete": "删除",
+    "all": "全部",
+    "reset": "重置",
+    "pleaseEnter": "请输入",
+    "loadFailed": "加载角色列表失败",
+    "noData": "暂无数据",
+    "pagination": "{from}-{to}，共 {count} 条",
+    "paginationEmpty": "0-0，共 0 条",
+    "deleteConfirmTitle": "确认删除",
+    "deleteConfirmMessage": "确定要删除角色 {name}（{code}）吗？此操作不可恢复。",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败",
+    "email": "邮箱",
+    "phone": "手机号",
+    "deleteUserConfirmTitle": "确认删除用户",
+    "deleteUserConfirmMessage": "确定要删除用户 {nickname}（ID: {id}）吗？此操作不可恢复。"
+  },
+  "character": {
+    "create": {
+      "title": "创建角色",
+      "name": {
+        "label": "角色名称",
+        "placeholder": "为角色取一个好名字吧",
+        "counter": "({current}/{max})",
+        "hint": "2～10字"
+      },
+      "avatar": {
+        "label": "角色头像",
+        "preview": "",
+        "loading": "加载中...",
+        "error": "图片加载失败",
+        "uploadHint": "",
+        "sizeHint": "建议上传图片宽高比为 3:4，或角色主题位于图片中心位置。",
+        "linkPlaceholder": "https://"
+      },
+      "background": {
+        "label": "角色背景",
+        "placeholder": "描述角色的背景故事，包括成长经历、重要事件等。",
+        "counter": "({current}/{max})",
+        "hint": "64～1024字"
+      },
+      "description": {
+        "label": "角色描述",
+        "placeholder": "请简要描述这个角色的特点",
+        "hint": "10-100字"
+      },
+      "languageStyle": {
+        "label": "语言风格",
+        "placeholder": "描述角色的说话方式、语气特点等。",
+        "hint": "64～1024字"
+      },
+      "tags": {
+        "label": "标签",
+        "placeholder": "角色标签，一行一个标签。",
+        "hint": "0～32字"
+      },
+      "gender": {
+        "label": "角色性别",
+        "male": "男生",
+        "female": "女生",
+        "special": "未知/特别"
+      },
+      "language": {
+        "label": "角色语言",
+        "zh": "中文",
+        "en": "English"
+      },
+      "username": {
+        "label": "对用户称呼",
+        "placeholder": "为用户设定一个名字。留空的话，显示没有特别的名字。",
+        "hint": "2～10字",
+        "tooShort": "不能少于1个字",
+        "tooLong": "不能超过10个字"
+      },
+      "firstLetter": {
+        "label": "第一封信件",
+        "placeholder": "角色给用户的第一封信，表达角色对用户的期待和问候。",
+        "hint": "0～512字"
+      },
+      "code": {
+        "label": "角色代码",
+        "placeholder": "请输入角色的唯一标识（最长12个字符）",
+        "hint": "最长12个字符"
+      },
+      "success": "角色创建成功",
+      "failed": "角色创建失败",
+      "personalityTraits": {
+        "label": "角色设定",
+        "placeholder": "详细描述角色的性格特点、行为方式、习惯等。",
+        "hint": "64～1024字"
+      }
+    },
+    "detail": {
+      "title": "角色详情",
+      "writeLetter": "给我写信吧",
+      "edit": "编辑"
+    }
+  },
+  "common": {
+    "save": "保存",
+    "required": "此项为必填项",
+    "tooShort": "不能少于{min}个字",
+    "tooLong": "不能超过{max}个字",
+    "cancel": "取消",
+    "confirm": "确认",
+    "submitting": "发送中..."
+  },
+  "myModels": {
+    "title": "我的角色"
+  },
+  "auth": {
+    "welcome": "欢迎使用",
+    "login": "登录",
+    "logout": "退出登录",
+    "selectRegion": "请选择您所在的区域",
+    "mainland": "中国大陆",
+    "overseas": "世界其他区域",
+    "phone": "手机号",
+    "email": "邮箱",
+    "password": "密码",
+    "verificationCode": "验证码",
+    "sendCode": "发送验证码",
+    "codeSent": "验证码已发送",
+    "loginSuccess": "登录成功",
+    "register": "注册",
+    "accountLabel": "手机号/邮箱",
+    "accountPlaceholder": "请输入手机号或邮箱",
+    "phoneRequired": "请输入手机号",
+    "accountRequired": "请输入账号",
+    "passwordRequired": "请输入密码",
+    "codeRequired": "请输入验证码",
+    "registerSuccess": "注册成功",
+    "confirmPassword": "确认密码",
+    "passwordInvalid": "密码必须包含字母和数字，长度在6-18位之间",
+    "passwordMismatch": "两次输入的密码不一致",
+    "passwordHelperText": "密码必须包含字母和数字，长度在6-18位之间",
+    "invalidPhone": "请输入正确的手机号",
+    "invalidEmail": "请输入正确的邮箱地址",
+    "loginFailed": "登录失败",
+    "accountOrPasswordError": "账号或密码错误"
+  },
+  "favorites": {
+    "addSuccess": "收藏成功",
+    "removeSuccess": "取消收藏成功",
+    "operationFailed": "操作失败"
+  }
+}
